@@ -58,7 +58,14 @@ button {
         transform: rotate(360deg);
     }
 }
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
 .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
